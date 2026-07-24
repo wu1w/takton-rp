@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Tauri / Rust
+src-tauri/target/
+
+# 数据与密钥（永不进仓）
+secrets/
+*.key
+Documents/
+念匣/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 构建产物与二进制（本地构建生成，不进仓；经 Release 一键包分发）
+core/build/
+core/build-pyi/
+core/dist/
+vendor/
+shells/desktop/src-tauri/binaries/
+shells/desktop/resources/
+
+# 开发阶段手册（隔离在仓外 takton-rp-dev/）

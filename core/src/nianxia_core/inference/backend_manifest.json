@@ -1,0 +1,71 @@
+{
+  "llama_tag": "b10092",
+  "backends": {
+    "cpu": {
+      "windows": [
+        {
+          "name": "llama-b10092-bin-win-cpu-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-win-cpu-x64.zip",
+          "sha256": "c842fa7dc90e32b327c62903f4310ef251a902c90ef5b3a6c01c6b675dce078e"
+        }
+      ],
+      "darwin": [
+        {
+          "name": "llama-b10092-bin-macos-x64.tar.gz",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-macos-x64.tar.gz",
+          "sha256": "5b4da2d7fe2670265f8adc48765e69f0253f27f9ed2ebd1c09bf692d47127b99"
+        }
+      ]
+    },
+    "vulkan": {
+      "windows": [
+        {
+          "name": "llama-b10092-bin-win-vulkan-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-win-vulkan-x64.zip",
+          "sha256": "af0787692f10ed66d8f3db1d67e90337fc31b8efce297e8491906220fd0a4798"
+        }
+      ]
+    },
+    "cuda": {
+      "windows": [
+        {
+          "name": "llama-b10092-bin-win-cuda-12.4-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-win-cuda-12.4-x64.zip",
+          "sha256": "e7489486ba36ab1819c141ba11405c83a29ff4fdc41dd79c6cfbab180b15b887"
+        },
+        {
+          "name": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/cudart-llama-bin-win-cuda-12.4-x64.zip",
+          "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6"
+        }
+      ]
+    },
+    "hip": {
+      "windows": [
+        {
+          "name": "llama-b10092-bin-win-hip-radeon-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-win-hip-radeon-x64.zip",
+          "sha256": "e1283761c76fb8abcee5d27c2166c8a2c1488728dc7250f552c1186bca0acf73"
+        }
+      ]
+    },
+    "sycl": {
+      "windows": [
+        {
+          "name": "llama-b10092-bin-win-sycl-x64.zip",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-win-sycl-x64.zip",
+          "sha256": "5602350458e6870d37808890764b0eda0c9d0e4067e99945dc82465ce4ff281b"
+        }
+      ]
+    },
+    "metal": {
+      "darwin": [
+        {
+          "name": "llama-b10092-bin-macos-arm64.tar.gz",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-macos-arm64.tar.gz",
+          "sha256": "f3ec2351e06322478e3f38f23f5339cd834cca5e3740f334ce2bdc5de95f90e0"
+        }
+      ]
+    }
+  }
+}
